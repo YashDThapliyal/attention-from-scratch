@@ -10,7 +10,7 @@ from attention import MultiHeadAttention
 
 
 def create_token_embeddings(tokens: list[str], embed_dim: int) -> torch.Tensor:
-    """Create simple embeddings for tokens (random but deterministic per token)."""
+    """Create simple embeddings for tokens (random but deterministic per token)"""
     embeddings = []
     for i, token in enumerate(tokens):
         torch.manual_seed(hash(token) % 2**32)
