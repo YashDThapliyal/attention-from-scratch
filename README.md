@@ -1,6 +1,6 @@
 # Attention from Scratch
 
-A minimal PyTorch implementation of multi-head self-attention, built for learning and experimentation.
+A minimal PyTorch implementation of multi-head self-attention.
 
 ## Installation
 
